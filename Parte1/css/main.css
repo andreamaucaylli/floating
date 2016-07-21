@@ -1,0 +1,22 @@
+#padre{
+	border: 1px solid black;
+	width: 800px;
+}
+
+#amarillo{
+	background-color: yellow;
+	width: 25%;
+	height: 100px;
+}
+
+#azul{
+	background-color: blue;
+	width: 25%;
+	height: 100px;
+}
+
+#magenta{
+	background-color: magenta;
+	width: 25%;
+	height: 100px;
+}

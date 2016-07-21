@@ -1,0 +1,39 @@
+#padre{
+	border: 1px solid black;
+	width: 800px;
+}
+
+.clearfix{
+	*zoom:1;
+}
+
+.clearfix:before, .clearfix:after{
+	content: "";
+	display: table;
+}
+
+.clearfix:after{
+	clear: both;
+}
+
+#amarillo{
+	background-color: yellow;
+	width: 25%;
+	height: 100px;
+	float: left;
+}
+
+#azul{
+	background-color: blue;
+	width: 25%;
+	height: 100px;
+	float: left;
+}
+
+#magenta{
+	background-color: magenta;
+	width: 25%;
+	height: 100px;
+	float: left;
+}
+
